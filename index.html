@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Birthday Surprise</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ENVELOPE OPENING SCREEN -->
+    <section class="envelope-screen" id="envelopeScreen">
+
+        <p class="envelope-hint">You have a little surprise waiting for you...</p>
+
+        <div class="envelope" id="envelope">
+            <div class="envelope-back"></div>
+
+            <div class="letter-preview">
+                <span>For someone special</span>
+                <p>Happy Birthday!</p>
+            </div>
+
+            <div class="envelope-front"></div>
+            <div class="envelope-flap"></div>
+
+            <button class="open-button" id="openButton">
+                Open me ♡
+            </button>
+        </div>
+
+        <p class="envelope-bottom">Made with love, just for you</p>
+    </section>
+
+
+    <!-- MAIN BIRTHDAY PAGE -->
+    <main class="birthday-page" id="birthdayPage">
+
+        <header class="hero">
+            <p class="small-heading">A LITTLE SOMETHING FOR YOU</p>
+            <h1>Happy Birthday!</h1>
+<div class="hero-decoration">♡ ✧ ♡</div>
+            <p class="hero-subtitle">
+                Today is all about celebrating you.
+            </p>
+
+            <div class="music-area">
+                <button id="musicButton" class="music-button">
+                    ♫ Play our song
+                </button>
+
+                <audio id="birthdayMusic" loop>
+                    <source src="bdaysong.mp3.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </header>
+
+
+        <!-- BIRTHDAY LETTER -->
+        
+<!-- BIRTHDAY LETTER -->
+<section class="letter-section">
+
+    <div class="letter-intro">
+        <span class="intro-star">✦</span>
+        <p>A LITTLE NOTE FROM ME TO YOU</p>
+        <h2>Something from the heart</h2>
+        <span class="intro-heart">♡</span>
+    </div>
+
+    <div class="letter-paper">
+
+        <div class="tape tape-left"></div>
+        <div class="tape tape-right"></div>
+
+        <div class="letter-top">
+            <span class="letter-date">A SPECIAL DAY · JUST FOR YOU</span>
+            <span class="letter-flower">✿</span>
+        </div>
+
+        <div class="letter-content">
+
+            <p class="letter-greeting">Dear Rodolfo,</p>
+
+            <p>
+                Happy birthday to someone who holds such a special
+                place in my heart!
+            </p>
+
+            <p>
+                Happy Birthday! I miss you so much (eme), it's been a while since we last saw each other
+                    at school becuase of course, you moved to a different school. But I think I already adjusted
+                    to this long distance relationship XD. Everyone asks me if we're still together and be surprised
+                    because we continued staying strong, which, I am too. I still remember the first time we met, how we instantly
+                    clicked - it's as if we were made to meet each other. The endless laughter during class, exchanging of socials -
+                    it's such a fun memory to look back to. Before we got together, I don't really like you - I'll admit that, but as
+                    we got closer each day, I feel my heart racing whenever we talked. I remember being upset on the day before you 
+                    confessed to me - I tried being indifferent only to be messaged with "I love you". I didn't know what to feel 
+                    that day, I still reciprocated anyway.
+                    
+            </p>
+
+            <p>
+                  Thank you for simply existing and loving me. I hope we remain strong, I love you very much!
+            </p>
+
+            <p>
+                As you begin another year, I hope you continue to
+                grow, discover new things, achieve your dreams,
+                and find countless reasons to smile.
+            </p>
+
+            <p class="letter-last">
+                I hope this little website reminds you how special
+                you are. Enjoy every moment of your day!
+            </p>
+
+            <div class="letter-ending">
+                <span>With all my love,</span>
+                <p>Quisha ♡</p>
+            </div>
+
+        </div>
+
+        <div class="letter-bottom">
+            <span>MADE WITH LOVE</span>
+            <span>♡ ✧ ♡</span>
+        </div>
+
+        <div class="letter-side-decoration">✿</div>
+
+    </div>
+
+</section>
+
+
+
+        <!-- PHOTO GALLERY -->
+        <section class="gallery-section">
+            <div class="section-heading">
+                <span>02</span>
+                <h2>Little moments</h2>
+            </div>
+
+            <p class="section-description">
+                A few memories that deserve to be kept forever.
+            </p>
+
+            <div class="photo-gallery">
+                <div class="photo-card">
+                    <img src="photo1.png.jpe" alt="Our first memory">
+                    <p>Our first ever photo! ♡</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="photo2.png.jpe" alt="A special memory">
+                    <p>During flag ceremony lolz</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="photo3.png.jpe" alt="Another special memory">
+                    <p>Our first photobooth together</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- INTERACTIVE CAKE -->
+        <section class="cake-section">
+            <div class="section-heading">
+                <span>03</span>
+                <h2>A birthday wish</h2>
+            </div>
+
+            <p class="section-description">
+                Make a wish and tap the cake!
+            </p>
+
+            <div class="cake-container">
+                <div class="candles">
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                </div>
+
+                <div class="cake-top"></div>
+                <div class="cake-body">
+                    <div class="cake-decoration">♡ ♡ ♡</div>
+                </div>
+                <div class="cake-plate"></div>
+            </div>
+
+            <button class="wish-button" id="wishButton">
+                Blow the candles ✨
+            </button>
+
+            <p id="wishMessage" class="wish-message"></p>
+        </section>
+
+
+        <!-- ENDING -->
+        <footer class="ending">
+            <p>That's all for now...</p>
+            <h2>Enjoy your special day! ♡</h2>
+            <span>Made especially for you</span>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
